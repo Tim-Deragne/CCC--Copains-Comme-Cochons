@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Lusitana:400,700|Roboto:300,400,500,700,900&display=swap');
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/cards.css");
+
+
+body {
+  font-family: 'Lusitana', serif;
+  font-size: 20px;
+  margin: 0px 0px;
+  background-color: #E7E5DF;
+  color: #393E41;
+}
+
+h1,h2,h3 {font-family: 'Roboto', sans-serif;}
+
+a {text-decoration: none;}
+
+h2{letter-spacing: 1.5px;}

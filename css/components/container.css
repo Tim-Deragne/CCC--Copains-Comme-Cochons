@@ -1,0 +1,43 @@
+.container {
+  width: 800px;
+  margin:50px auto;
+  text-align: center;
+  padding:50px 70px 70px 70px;
+  font-weight: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 7px;
+}
+
+.phrase-cachée {color:#E7E5DF;}
+.phrase-cachée:hover {color: #E7BB41;transition-duration: 2s;}
+
+#btn {margin-bottom: 40px; margin-top: 40px;}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 860px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 760px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 660px) {
+  .container {
+    width: 360px;
+  }
+}
+@media (max-width: 560px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
